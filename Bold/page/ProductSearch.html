@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bold !</title>
+     <!-- BootStrap Link -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <!-- Custom Stylesheet -->
+     <link rel="stylesheet" href="http://localhost/Boldd/css/style.css">
+     <!-- Fontawesome Link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+</head>
+<body>
+    <!-- Header container -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" id="logo" href="#">Bold <span>!</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Browse Categories
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="category"></div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="products.html">Post Products</a>
+              </li>
+
+            <button class="btn btn-outline-warning my-2 my-sm-0" type="button" id="accountsBtn" disabled>Login</button>
+          </ul>
+         
+        </div>
+      </nav>
+
+       <!-- End of Header Container --> 
+
+       <!-- Product Search  -->
+
+       <div id="productsearch">
+           <div class="container">
+               <div class="row">
+                   <div class="col-lg">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" id="searchQuery" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="search_btn">Search</button>
+                      </form>
+                   </div>
+               </div>
+           </div>
+       </div>
+
+       <hr>
+       <!-- End of Product Search  -->
+
+       <!-- Search Result -->
+        <div id="searchresult">
+            <div >Search Count : <span id="searchCount"> 0</span></div>
+        </div>
+
+
+        <div id="searchDisplay">
+
+        </div>
+
+        <p id="searchResulr"></p>
+
+
+
+            <!-- End of Search Result -->
+
+      
+
+
+    
+
+     <!-- Bootstrap & Jquery Script -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     
+     <!-- Custom Js Script -->
+   
+      <!-- <script src="http://localhost/Bold/js/validate.js"></script> -->
+     <script src="http://localhost/Boldd/js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bold !- Search for Products</title>
+     <!-- BootStrap Link -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <!-- Custom Stylesheet -->
+     <link rel="stylesheet" href="http://localhost/Bold/css/style.css">
+     <link rel="stylesheet" href="http://localhost/Bold/css/menu.css">
+     <!-- Fontawesome Link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+</head>
+<body>
+     <!-- Header container -->
+     <nav class="pnavbar">
+            <i class="fas fa-arrow-left" id="p2home"></i>
+          </nav>
+    
+           <!-- End of Header Container --> 
+
+    <div class="view-bck">
+
+        <div class="rheader">
+            <h1 id="logo">Bold<span>!</span></h1>
+            <p>Product Details</p>
+    </div>
+           
+        <!-- <div class="container"> -->
+          <div id="pform-box">
+              <form>
+            <div class="form-group">
+              <input type="text"  id="product_title" placeholder="Product Name">
+              <span id="productTitleError"></span>
+            </div>
+
+            <div class="form-group">
+                <select id="categoryH">
+                  <option> -- Category -- </option>
+                </select>
+                <span id="categoryIdError"></span>
+              </div>
+
+        <div class="form-group">
+                <select  id="brand">
+                    <option> --Brands -- </option>
+                </select>
+                <span id="brandIdError"></span>
+              </div>
+            <div class="form-group">
+                <input type="text"  id="product_desc" placeholder="Product Description">
+                <span id="productDescError"></span>
+              </div>
+             <div class="form-group">
+                <input type="text"  id="product_price" placeholder="Product Price">
+                <span id="productPriceError"></span>
+              </div>
+          <div class="form-group">
+                <input type="text"  id="keywords" placeholder="Product Keywords" >
+                <span id="productKeywordsError"></span>
+              </div>
+
+          <div class="form-group">
+              <span>Upload Product Image:</span> <input type="file"  id="product_image" placeholder="Product Image" >
+                <span id="productImageError"></span>
+              </div>
+
+            <button type="button" class="" id="insertProduct_btn"> <i class="far fa-plus-square"></i> Add Product</button>
+                                    
+            <span id="insertionErrorMessage"></span>
+
+              </form>
+          </div>
+        <!-- </div> -->
+    </div>
+
+   
+    </div>
+ <!-- Bootstrap & Jquery Script -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+ <!-- Custom Js Script -->
+
+ <!-- <script src="http://localhost/Skates/js/validate.js"></script> -->
+ <script src="http://localhost/Bold/js/script.js"></script>
+    
+</body>
+</html>

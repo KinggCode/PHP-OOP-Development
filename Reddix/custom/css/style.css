@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://images.pexels.com/photos/2891229/pexels-photo-2891229.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+#user-option button{
+    margin-top: -2%;
+    width: 18rem;
+}
+
+
+#login-box{
+    width: 38rem;
+    height: 27rem;
+    margin-top: 19%;
+    margin-left: 25rem;
+}
+
+#update-box{
+    width: 38rem;
+    height: 27rem;
+    margin-top: 19%;
+    margin-left: 25rem;
+}
+
+#profile-box{
+    width: 90rem;
+    height: 35rem;
+    margin-top: 15%;
+    margin-left: 21rem;
+}
+
+
+
+
+#register-box{
+    width: 54rem;
+    margin-left: -4%;
+    height: 110%;
+    background: white;
+
+}
+.login-title{
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 3%;
+    font-family: 'Dancing Script', cursive;
+}
+
+.update-title{
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 3%;
+    font-family: 'Dancing Script', cursive;
+}
+
+.register-title{
+    margin-top: 15%;
+    text-align: center;
+    margin-bottom: 3%;
+    font-family: 'Dancing Script', cursive;
+}
+
+#log-body{
+    margin-top: 5%;
+}
+
+#reg-body{
+    margin-top: 5%;
+}
+
+#myTab a{
+    width: 18rem;
+}
+
+#regTab a{
+    width: 25rem;
+}
+
+#log-body p{
+margin-top: 3%;
+}
+

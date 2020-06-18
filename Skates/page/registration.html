@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Skates - Registration</title>
+
+    <!-- BootStrap Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="http://localhost/skates/css/style.css">
+    <!-- Fontawesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+</head>
+<body>
+
+    <!-- Main Body of Registration Page -->
+    <div class="register-bck">
+        <div class="register-box">
+            <div class="row">
+                <div class="col-lg-5">
+                        <img src="https://images.pexels.com/photos/415188/pexels-photo-415188.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Registration Slide Image" style="width: 50rem; height: 51rem;" class="img-thumbnail shadow-lg ">
+                </div>
+                <div class="col-lg-7 col-md-9">
+                        <div class="rheader">
+                                <h1 id="logo">Skates<span>.</span></h1>
+                                <p>Registration</p>
+
+                                <div class="reg-body">
+                                        <form>
+                                                <div class="form-row">
+                                                  <div class="form-group col-md-6">
+                                                    <input type="text" class="form-control" id="userFirstname" placeholder="Enter Firstname">
+                                                    <span id="FirstnameError"></span>
+                                                  </div>
+
+                                                  <div class="form-group col-md-6">
+                                                    <input type="text" class="form-control" id="userSurname" placeholder="Enter Surname">
+                                                    <span id="SurnameError"></span>
+                                                  </div>
+                                                </div>
+
+                                                <div class="form-group">
+                                                  <input type="email" class="form-control" id="userEmail" placeholder="Enter email address">
+                                                  <span id="EmailError"></span>
+                                                </div>
+
+                                                
+                                                <div class="form-group">
+                                                  <input type="text" class="form-control" id="userHome" placeholder="Apartment, studio, or floor">
+                                                  <span id="AddressError"></span>
+                                                </div>
+
+                                                <div class="form-row">
+                                                  <div class="form-group col-md-6">
+                                                    <input type="number" class="form-control" id="userAge" placeholder="Enter Age">
+                                                    <span id="AgeError"></span>
+                                                  </div>
+                                                  <div class="form-group col-md-4">
+                                                    <select id="userGender" class="form-control">
+                                                      <option selected>---Gender---</option>
+                                                      <option value="male">male</option>
+                                                      <option value="female">female</option>
+                                                      <option value="transgender">transgender</option>
+                                                    </select>
+                                                  </div>
+                                                </div>
+
+                                                <div class="form-row">
+                                                        <div class="form-group col-md-6">
+                                                          <input type="password" class="form-control" id="userPassword" placeholder="Enter Password">
+                                                          <span id="userPassError"></span>
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                                <input type="password" class="form-control" id="userPassword2" placeholder="Re-enter Password">
+                                                                <span id="userPassError2"></span>
+                                                              </div>
+                                                        
+                                                      </div>
+                                                      <div class="form-row">
+                                                          <div class="custom-file">
+                                                              <input type="file" class="custom-file-input" id="userProfile"
+                                                                aria-describedby="inputGroupFileAddon01">
+                                                              <label class="custom-file-label" for="userProfile">Choose file</label>
+                                                          </div>
+                                                        </div>
+                                                        <br>
+                                                
+                                                <button type="button" class="btn btn-warning btn-block" id="userReg_btn"> <i class="fas fa-sign-in-alt"></i> Register</button>
+                                                <p style="text-align:right ;" > Already a User <a href="login.html">Login</a></p>
+                                                <p style="text-align:right ;" > Not a user. <a href="http://localhost/Skates/admin/page/login.html">Admin Portal</a></p>
+                                                <span id="regErrorMessage"></span>
+                                              </form>
+                                </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- End of Registration -->
+
+    
+
+
+    <!-- Bootstrap & Jquery Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- Custom Js Script -->
+  
+    <script src="/js/validate.js"></script>
+    <script src="http://localhost/skates/js/script.js"></script>
+</body>
+</html>

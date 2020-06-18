@@ -1,0 +1,4 @@
+The files holds information on errors such as :
+404 error
+503 error
+etc..
